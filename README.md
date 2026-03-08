@@ -52,49 +52,49 @@ The report covers:
 
 ## 📸 Dashboard Screenshots
 
-All screenshots are stored in the [`Screenshots/`](./Screenshots/) folder.
+All screenshots are stored in the [`Dashboard ScreenShot/`](./Dashboard%20ScreenShot/) folder.
 
 ---
 
 ### 🔹 Full Overview — All Years, No Filters Applied
 > A complete view of global order quantities on the map, monthly sales trends on the line chart, and the full category/channel breakdown in the matrix table.
 
-![Full Overview](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Screenshots/SS1.png)
+![Full Overview](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Dashboard%20ScreenShot/SS1.png)
 
 ---
 
 ### 🔹 2018 — Year Filter Active
 > Filtering to 2018 reveals the full monthly trend for that year. Total sales drop to ₹65,91,525.97, with Bikes still leading at ₹51,03,681.29.
 
-![2018 Year Filter](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Screenshots/SS2.png)
+![2018 Year Filter](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Dashboard%20ScreenShot/SS2.png)
 
 ---
 
 ### 🔹 Drill-Down: May Sales Tooltip
 > Hovering over May on the line chart reveals Sum of Sales Amount of **₹9,86,866.90** and Sales Amount by Due Date of **₹9,00,011.67**, with an option to drill up the time hierarchy.
 
-![May Tooltip Drill-Down](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Screenshots/SS3.png)
+![May Tooltip Drill-Down](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Dashboard%20ScreenShot/SS3.png)
 
 ---
 
 ### 🔹 Cross-Filter: Components Category Selected
 > Selecting the Components row in the matrix table cross-filters the line chart, showing a peak of ₹1.88M in September and strong performance through Q3.
 
-![Components Cross-Filter](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Screenshots/SS4.png)
+![Components Cross-Filter](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Dashboard%20ScreenShot/SS4.png)
 
 ---
 
 ### 🔹 Map Visual — Two Visual Types Compared
 > A side-by-side view of the legacy Bing Map and the ArcGIS map visual, showing order quantity bubbles concentrated in North America and Europe.
 
-![Map Visual Comparison](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Screenshots/SS5.png)
+![Map Visual Comparison](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Dashboard%20ScreenShot/SS5.png)
 
 ---
 
 ### 🔹 Data Model — Star Schema
 > The underlying Power BI data model showing the Sales fact table connected to Date, Product, Customer, Reseller, SalesTerritory, and SalesOrder dimension tables.
 
-![Data Model](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Screenshots/SS6.png)
+![Data Model](https://raw.githubusercontent.com/Karnita-Saumya/powerbi-executive-summary-sales-report/main/Dashboard%20ScreenShot/SS6.png)
 
 ---
 
@@ -115,7 +115,7 @@ All screenshots are stored in the [`Screenshots/`](./Screenshots/) folder.
 
 ## 📂 Dataset
 
-The source data is stored in the [`Dataset/`](./Dataset/) folder as `AdventureWorks_Sales.xlsx`.
+The source data `AdventureWorks_Sales.xlsx` is stored in the root of this repository.
 
 ### 📋 Key Tables in the Data Model
 
@@ -281,7 +281,7 @@ Sales (Fact Table)
 ```
 📦 powerbi-executive-summary-sales-report/
 │
-├── 📁 Screenshots/
+├── 📁 Dashboard ScreenShot/
 │   ├── 🖼️ SS1.png     ← Full dashboard, no filters
 │   ├── 🖼️ SS2.png     ← 2018 year filter active
 │   ├── 🖼️ SS3.png     ← May drill-down tooltip
@@ -289,11 +289,9 @@ Sales (Fact Table)
 │   ├── 🖼️ SS5.png     ← Map visual type comparison
 │   └── 🖼️ SS6.png     ← Data model — star schema
 │
-├── 📁 Dataset/
-│   └── 📗 AdventureWorks_Sales.xlsx   ← Source data
-│
-├── 📊 Report.pbix                     ← Power BI report ← Open this!
-└── 📄 README.md                       ← This file
+├── 📗 AdventureWorks_Sales.xlsx   ← Source data
+├── 📊 Report.pbix                 ← Power BI report ← Open this!
+└── 📄 README.md                   ← This file
 ```
 
 ---
